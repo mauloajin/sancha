@@ -36,11 +36,11 @@ const enKeywords = enPlaces.flatMap((place) => enIntents.map((intent) => `${inte
 const restaurantLd = {
   '@context': 'https://schema.org',
   '@type': 'Restaurant',
-  '@id': 'https://sancha.vercel.app/#restaurant',
+  '@id': 'https://sancha-nine.vercel.app/#restaurant',
   name: '餐茶',
   alternateName: ['餐茶（さんちゃ）', 'Sancha', 'Suncha'],
   description: '東京都世田谷区三軒茶屋の、あて巻き寿司、海鮮料理、お造り、お茶割り、日本酒を提供する和食居酒屋。',
-  url: 'https://sancha.vercel.app/',
+  url: 'https://sancha-nine.vercel.app/',
   telephone: '03-6453-2791',
   priceRange: '¥¥',
   servesCuisine: ['和食', '居酒屋', '寿司', '海鮮', 'Japanese', 'Sushi', 'Seafood'],
